@@ -1,0 +1,6 @@
+service : {
+  get_balance: () -> (nat);
+  deposit: () -> ();
+  borrow: (nat) -> ();
+  get_transactions: () -> (vec record { text; nat });
+}
